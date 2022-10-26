@@ -1,0 +1,77 @@
+bin
+obj
+~$*
+*.userprefs
+*~
+packages
+.vs
+# User-specific files
+*.user
+
+docfx/api
+
+#git merge files
+*.orig
+
+.vscode/
+
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+!lib/*
+!lib/*/x64
+[Bb]in/
+[Oo]bj/
+
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# =========================
+# Windows detritus
+# =========================
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Mac desktop service store files
+.DS_Store
+
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+.vs
+
+# Guidance Automation Toolkit
+*.gpState
+
+# ReSharper is a .NET coding add-in
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.azurePubxml
+
+# NuGet Packages Directory
+## TODO: If you have NuGet Package Restore enabled, uncomment the next line
+packages/
+## TODO: If the tool you use requires repositories.config, also uncomment the next line
+!packages/repositories.config
